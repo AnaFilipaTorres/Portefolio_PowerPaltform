@@ -1,0 +1,171 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr058_sharedcommondataserviceforapps_cd24a"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr058_sharedoffice365_ff4a7"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "undefined",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "Recurrence": {
+          "recurrence": {
+            "frequency": "Day",
+            "interval": "1",
+            "startTime": "2024-04-05T11:15:00Z",
+            "schedule": {
+              "hours": [
+                "11",
+                "13"
+              ],
+              "minutes": [
+                59
+              ]
+            }
+          },
+          "type": "Recurrence"
+        }
+      },
+      "actions": {
+        "List_rows": {
+          "runAfter": {},
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "cr058_cadastro_ginasios",
+              "$filter": "createdon ge '@{addHours(utcNow(), -24)}'"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "ListRecords",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "Condition": {
+          "actions": {
+            "Compose_style": {
+              "type": "Compose",
+              "inputs": "<style>\n    table {\n        border-collapse: collapse;\n    }\n    table td,\n    table th {\n        border: 1px solid #ddd;\n        padding: 6px 20px;\n        text-align: left;\n    }\n    table th {\n        background-color: #1C6EA4;\n        color: white;\n    }\n</style>"
+            },
+            "Create_HTML_table": {
+              "runAfter": {
+                "Compose_style": [
+                  "Succeeded"
+                ]
+              },
+              "type": "Table",
+              "inputs": {
+                "from": "@outputs('List_rows')?['body/value']",
+                "format": "HTML",
+                "columns": [
+                  {
+                    "header": "Nome Completo:",
+                    "value": "@{item()?['cr058_fullname']}"
+                  },
+                  {
+                    "header": "Idade: ",
+                    "value": "@{item()?['cr058_idade']}"
+                  },
+                  {
+                    "header": "Email:",
+                    "value": "@{item()?['cr058_email']}"
+                  },
+                  {
+                    "header": "Numero telefone:",
+                    "value": "@{item()?['cr058_mobilenumber']}"
+                  }
+                ]
+              }
+            },
+            "Send_an_email_(V2)": {
+              "runAfter": {
+                "Create_HTML_table": [
+                  "Succeeded"
+                ]
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "emailMessage/To": "iefp230@alunos.ipca.pt",
+                  "emailMessage/Subject": "Relatório Diário",
+                  "emailMessage/Body": "<p>@{body('Create_HTML_table')}</p>",
+                  "emailMessage/Importance": "Normal"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                  "operationId": "SendEmailV2",
+                  "connectionName": "shared_office365"
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "List_rows": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {
+              "Send_an_email_(V2)_1": {
+                "type": "OpenApiConnection",
+                "inputs": {
+                  "parameters": {
+                    "emailMessage/To": "iefp230@alunos.ipca.pt",
+                    "emailMessage/Subject": "Erro no relatorio",
+                    "emailMessage/Body": "<p>Erro</p>",
+                    "emailMessage/Importance": "Normal"
+                  },
+                  "host": {
+                    "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                    "operationId": "SendEmailV2",
+                    "connectionName": "shared_office365"
+                  }
+                }
+              }
+            }
+          },
+          "expression": {
+            "and": [
+              {
+                "greater": [
+                  "@length(outputs('List_rows')?['body/value'])",
+                  0
+                ]
+              }
+            ]
+          },
+          "type": "If"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

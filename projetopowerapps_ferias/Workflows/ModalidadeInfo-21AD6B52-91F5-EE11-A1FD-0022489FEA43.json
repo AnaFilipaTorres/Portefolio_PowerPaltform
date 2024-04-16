@@ -1,0 +1,257 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr058_sharedoffice365_ff4a7"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      },
+      "shared_conversionservice": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr058_sharedconversionservice_9c855"
+        },
+        "api": {
+          "name": "shared_conversionservice"
+        }
+      },
+      "shared_onedriveforbusiness": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr058_sharedonedriveforbusiness_ca52c"
+        },
+        "api": {
+          "name": "shared_onedriveforbusiness"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "When_a_new_email_arrives_(V3)": {
+          "splitOn": "@triggerOutputs()?['body/value']",
+          "type": "OpenApiConnectionNotification",
+          "inputs": {
+            "parameters": {
+              "to": "iefp230@alunos.ipca.pt",
+              "includeAttachments": false,
+              "importance": "Any",
+              "fetchOnlyWithAttachment": false,
+              "folderPath": "Inbox"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+              "connectionName": "shared_office365",
+              "operationId": "OnNewEmailV3"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Html_to_text": {
+          "runAfter": {
+            "Initialize_variable": [
+              "Succeeded"
+            ]
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "Content": "<p>@{triggerOutputs()?['body/body']}</p>"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_conversionservice",
+              "connectionName": "shared_conversionservice",
+              "operationId": "HtmlToText"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Yoga": {
+          "actions": {
+            "Send_an_email_(V2)": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "emailMessage/To": "iefp230@alunos.ipca.pt",
+                  "emailMessage/Subject": "Interesse Modalidade",
+                  "emailMessage/Body": "<p>Olá professor,</p><br><p>Foi manifestado interesse na sua modalidade.</p><br><p>@{triggerOutputs()?['body/from']}</p><br><p>Com os melhores cumprimentos,</p><p><b><strong style=\"color: rgb(189, 16, 224);\">Power Gym Girls</strong></b>.</p><p>@{variables('logotipo')}</p>",
+                  "emailMessage/Importance": "Normal"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                  "connectionName": "shared_office365",
+                  "operationId": "SendEmailV2"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {
+            "Html_to_text": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {}
+          },
+          "expression": {
+            "and": [
+              {
+                "contains": [
+                  "@body('Html_to_text')",
+                  "Yoga"
+                ]
+              }
+            ]
+          },
+          "type": "If"
+        },
+        "Musculação": {
+          "actions": {
+            "Send_an_email_(V2)_1": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "emailMessage/To": "iefp230@alunos.ipca.pt",
+                  "emailMessage/Subject": "Interesse na modalidade",
+                  "emailMessage/Body": "<p>Olá professor,<br><br>Foi manifestado interesse na sua modalidade.<br><br>@{triggerOutputs()?['body/from']}<br><br>Com os melhores cumprimentos,<br><b><strong style=\"color: rgb(189, 16, 224);\">Power Gym Girls.</strong></b></p><p>@{variables('logotipo')}</p>",
+                  "emailMessage/Importance": "Normal"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                  "connectionName": "shared_office365",
+                  "operationId": "SendEmailV2"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {
+            "Html_to_text": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {}
+          },
+          "expression": {
+            "and": [
+              {
+                "contains": [
+                  "@body('Html_to_text')",
+                  "Musculação"
+                ]
+              }
+            ]
+          },
+          "type": "If"
+        },
+        "Cycling": {
+          "actions": {
+            "Send_an_email_(V2)_2": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "emailMessage/To": "iefp230@alunos.ipca.pt",
+                  "emailMessage/Subject": "Interesse em Modalide",
+                  "emailMessage/Body": "<p>Olá professor,<br><br>Foi manifestado interesse na sua modalidade.<br><br>@{body('Html_to_text')}<br><br>Com os melhores cumprimentos,<br>Power Gym Girls.</p><p>@{variables('logotipo')}</p>",
+                  "emailMessage/Importance": "Normal"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                  "connectionName": "shared_office365",
+                  "operationId": "SendEmailV2"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            }
+          },
+          "runAfter": {
+            "Html_to_text": [
+              "Succeeded"
+            ]
+          },
+          "else": {
+            "actions": {}
+          },
+          "expression": {
+            "and": [
+              {
+                "contains": [
+                  "@body('Html_to_text')",
+                  "Cycling"
+                ]
+              }
+            ]
+          },
+          "type": "If"
+        },
+        "logo": {
+          "runAfter": {},
+          "metadata": {
+            "b!1e1pTAUkT0O5yKuaR3j6XPZnFJdLzipNtz1DJf2qitVeKTEml0YWR5KozqwUgjKs.01NJJDDH7VFIK37PSZIRDK5V3MBSKMYEXI": "/Screenshot 2024-03-13 161642.png"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "id": "b!1e1pTAUkT0O5yKuaR3j6XPZnFJdLzipNtz1DJf2qitVeKTEml0YWR5KozqwUgjKs.01NJJDDH7VFIK37PSZIRDK5V3MBSKMYEXI",
+              "inferContentType": true
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_onedriveforbusiness",
+              "connectionName": "shared_onedriveforbusiness",
+              "operationId": "GetFileContent"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Initialize_variable": {
+          "runAfter": {
+            "Compose": [
+              "Succeeded"
+            ]
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "logotipo",
+                "type": "string",
+                "value": "@{concat('<img src=\"', outputs('Compose'),'\" alt=\"imagem\" width=\"200px\"/>')}"
+              }
+            ]
+          }
+        },
+        "Compose": {
+          "runAfter": {
+            "logo": [
+              "Succeeded"
+            ]
+          },
+          "type": "Compose",
+          "inputs": "@dataUri(body('logo'))"
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
