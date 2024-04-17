@@ -7,6 +7,8 @@ In this academic project the goal was to develop a canvas app for a gym where th
 - change the password;
 - upload the photos relative to the "local" where they would do their tasks, after selecting the "local" and each item from "listagem";
 - the user/employee to send the records from their tasks need do complete each of the tasks from the "local" they selected.
+
+  
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/b79bd36c-deb0-453f-bb25-52350b233ce0)
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/43bd4ff4-6d18-4d26-814a-aa790ead83ea)
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/5810e0e1-adbf-421e-b21b-dfec14c8fa29)
