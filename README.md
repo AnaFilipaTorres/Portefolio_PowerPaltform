@@ -20,7 +20,8 @@ In this academic project the goal was to develop a canvas app for a gym where th
 
 **_Power BI_**
 
-Here are some of the projects that i did in Power Bi, where I start doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
+Here are some examples of the projects that i did in Power Bi, where I start doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
+In the Power BI Desktop in all projects that i developed, i created calculated columns, develop metric, establish relationships beteween all the datasources connected, and used the tools such as:Ai insights, Find anomalys, Bookmarks, etc.
 
 
 Report:
