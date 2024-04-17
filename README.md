@@ -48,5 +48,14 @@ Dashboard:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c291deb0-09fa-4698-9583-5942fdc7a034)
 
 
+**_Power Automate_**
+
+When engaging with the core components of the Power Platform, prioritizing process automation became essential to streamline user interactions. This approach aimed to enhance user experience by automating repetitive tasks and simplifying complex processes, ultimately fostering seamless interaction and efficiency within the platform.
+
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/02998fcc-b0b0-4370-ae6d-fd430e66a07d)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/34a5c8b2-2538-493c-a9be-6281baaf9ae3)
+
+
+
 
 
