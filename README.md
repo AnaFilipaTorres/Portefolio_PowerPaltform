@@ -19,7 +19,7 @@ Users could:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/aed4c3de-de92-4739-8102-270e830eff31)
 
 
- **_Model-Driven App_**
+ **_Model-Driven App_** :computer:
 
  In this academic project, the goal was to develop a Model-Driven App from scratch. This involved the creation of all the necessary Dataverse tables, form desing, establishment of the tables relationship, implementation of business rules, integration of cloud flows, developed initially on Power Automate. Each step was crucial in crafting a comprehensive and functional solution tailored to the specific needs of the project. 
 
@@ -28,7 +28,7 @@ Users could:
 
  
 
-**_Power BI_**
+**_Power BI_** :computer:
 
 Here are some examples of the academic projects that i did in Power Bi, where I started doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
 In the Power BI Desktop in all projects that i developed, i created calculated columns, develop metrics, establish relationships beteween all the datasources connected, and used the tools such as:Ai insights, Find anomalys, Bookmarks, etc.
@@ -48,7 +48,7 @@ Dashboard:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c291deb0-09fa-4698-9583-5942fdc7a034)
 
 
-**_Power Automate_**
+**_Power Automate_** :computer:
 
 When engaging with the core components of the Power Platform, prioritizing process automation became essential to streamline user interactions. This approach aimed to enhance user experience by automating repetitive tasks and simplifying complex processes, ultimately fostering seamless interaction and efficiency within the platform.
 
