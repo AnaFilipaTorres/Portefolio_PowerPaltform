@@ -21,7 +21,7 @@ Users could:
 
  **_Model-Driven App_**
 
- In this academic project, the goal was to create a Model-Driven App from scratch. This involved constructing all the necessary Dataverse tables, designing forms, establishing relationships between the tables, implementing business rules, and integrating cloud flows, developed initially on Power Automate. Each step was crucial in crafting a comprehensive and functional solution tailored to the specific needs of the project. 
+ In this academic project, the goal was to develop a Model-Driven App from scratch. This involved the creation of all the necessary Dataverse tables, form desing, establishment of the tables relationship, implementation of business rules, integration of cloud flows, developed initially on Power Automate. Each step was crucial in crafting a comprehensive and functional solution tailored to the specific needs of the project. 
 
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/6a4e820e-8973-4d08-8dc9-7eaea9f9c0f6)
 
