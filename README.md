@@ -4,6 +4,15 @@
 In this academic project the goal was to develop a canvas app for a gym where the user/employee could:
 - register himself; 
 - change the password;
-- upload the fotos that would been save in a collection relative to the local where they would do they tasks, after selecting the local and listagem do say if they did all their tasks and add the foto, that can bee seen in the Galeria Fotos, where it would be necessary to uplçoad a foto of each of the tasks associated whit the local.
-
+- upload the photos relative to the "local" where they would do their tasks, after selecting the "local" and each item from "listagem";
+- the user/employee to send the records from their tasks need do complete each of the tasks from the "local" they selected.
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/b79bd36c-deb0-453f-bb25-52350b233ce0)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/43bd4ff4-6d18-4d26-814a-aa790ead83ea)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/5810e0e1-adbf-421e-b21b-dfec14c8fa29)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/552949b1-d261-4bed-931a-f860a5b0fc00)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/d4a10ee7-23e3-498e-8414-7dec829e4217)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/9309de84-f3e5-4674-9731-5ef62fdb5a9f)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/aed4c3de-de92-4739-8102-270e830eff31)
+
+
+
