@@ -1,6 +1,6 @@
 # Portefolio_PowerPaltform
 
- **_Mobile Canvas App_**
+ **_Mobile Canvas App_**:iphone:
 
 In this academic project, the goal was to create a canvas app tailored for a gym environment, empowering employees with essential functionalities.
 Users could:
