@@ -26,7 +26,8 @@ Here are some of the projects that i did in Power Bi, where I start doing the pr
 Report:
 
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/95dac63e-15bf-4e4d-9550-86cdcb23c223)
-![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/d67a6784-1bce-4f22-9a80-3241fa87b019)
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/ba730b01-f5e0-4237-a829-06f558acfd68)
+
 
 
 
