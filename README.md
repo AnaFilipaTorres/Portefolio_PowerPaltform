@@ -1,6 +1,6 @@
 # Portefolio_PowerPaltform
 
- **Mobile Canvas App**
+ **_Mobile Canvas App_**
 
 In this academic project the goal was to develop a canvas app for a gym where the user/employee could:
 - register himself; 
@@ -18,7 +18,7 @@ In this academic project the goal was to develop a canvas app for a gym where th
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/aed4c3de-de92-4739-8102-270e830eff31)
 
 
-Power BI
+**_Power BI_**
 
 Here are some of the projects that i did in Power Bi, where I start doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
 
