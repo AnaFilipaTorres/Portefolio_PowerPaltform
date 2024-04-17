@@ -19,9 +19,18 @@ In this academic project the goal was to develop a canvas app for a gym where th
 Power BI
 
 Here are some of the projects that i did in Power Bi, where I start doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
+Report:
 
 
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/95dac63e-15bf-4e4d-9550-86cdcb23c223)
+
+
+Dashboard:
+
+![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/580ba19e-909b-4e72-a598-4205e2b1a98b)
+
+
+
 
 
 
