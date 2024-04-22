@@ -2,268 +2,353 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Currículo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Filipa Araújo Torres - Currículo</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-yHJ/Z6HtOMIUpbpxPZdA0peWj7/3xVD2FBbsB5GvPU2C2hf3UbC4Ri4XfZc+dyyQ7zj4ydf9E4xdl5oM93eJBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #444;
+        }
 
-    .container {
-      max-width: 800px;
-      margin: 30px auto;
-      background-color: #f7f5f6;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
 
-    header {
-      text-align: center;
-      background-color: #c0eeb0;
-      padding: 20px;
-      border-radius: 8px 8px 0 0;
-    }
+        header {
+            text-align: center;
+            background-color: #4c77af;
+            padding: 20px;
+            border-radius: 15px 15px 0 0;
+            margin-bottom: 20px;
+        }
 
-    header img {
-      border-radius: 50%;
-      margin-bottom: 10px;
-      width: 150px;
-      height: 150px;
-    }
+        header img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
 
-    h1,
-    h2,
-    h3 {
-      color: #0f0e0e;
-      font-weight: bold;
-    }
+        h1,
+        h2,
+        h3 {
+            color: #333;
+            font-weight: bold;
+        }
 
-    p {
-      color: #414144;
-    }
+        p {
+            color: #666;
+        }
 
-    .section {
-      background-color: #ffffff;
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 20px;
-    }
+        .section {
+            background-color: #f9f9f9;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
 
-    .section h2 {
-      margin-top: 0;
-      margin-bottom: 15px;
-    }
+        .section h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
 
-    .section ul {
-      padding-left: 20px;
-    }
+        .section ul {
+            padding-left: 20px;
+        }
 
-    #projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+        .btn-primary {
+            background-color: #3a44cf;
+            border-color: #0f12ca;
+            transition: background-color 0.3s ease;
+        }
 
-    .project {
-      flex: 0 1 calc(50% - 20px);
-      margin-bottom: 20px;
-    }
+        .btn-primary:hover {
+            background-color: #3f5bd8;
+            border-color: #1d46ce;
+        }
 
-    .project-card {
-      background-color: #c0eeb0;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-    }
+        .btn-primary:focus,
+        .btn-primary.focus {
+            box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.5);
+        }
 
-    .project-card img {
-      width: 100%;
-      height: auto;
-      border-bottom: 1px solid #6e6868;
-    }
+        .project-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
 
-    .project-info {
-      padding: 20px;
-    }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
 
-    .project-info h3 {
-      margin-top: 0;
-    }
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            border-radius: 15px 15px 0 0;
+        }
 
-    .project-info p {
-      color: #666;
-    }
+        .project-info {
+            padding: 20px;
+        }
 
-    .project-info a {
-      display: inline-block;
-      color: #007bff;
-      text-decoration: none;
-    }
+        .project-info h3 {
+            margin-top: 0;
+            color: #333;
+        }
 
-    .project-info a:hover {
-      text-decoration: underline;
-    }
-  </style>
+        .project-info p {
+            color: #666;
+        }
+
+        .project-info a {
+            display: inline-block;
+            color: #4590d6;
+            text-decoration: none;
+        }
+
+        .project-info a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .social-links li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-links svg {
+            width: 30px;
+            height: 30px;
+            fill: #4c9ada;
+            transition: fill 0.3s ease;
+        }
+
+        .social-links svg:hover {
+            fill: #076de2;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="container">
-    <header class="section" style="background-color: #c0eeb0;">
-      <h1>Ana Filipa Araújo Torres</h1>
-      <p>Power Platform developer</p>
-      <img src="curriculumhtml/imagem/1677688121064.jpeg" alt="Sua Foto">
-    </header>
-    <section class="section">
-      <h2>About me</h2>
-      <div style="color: #0f0e0e">
-        <p style="color: #0f0e0e; text-align: justify;">
-          Hi there! My name is Ana, and I'm excited to share my journey of entering the world of
-          IT through low-code development. Coming from a non-technical background,
-          I was initially intimidated by the complexities of coding. However, discovering the power of
-          low-code platforms opened up a whole new world of possibilities for me.
-          It has allowed me to leverage my existing skills while acquiring new ones,
-          opening up a wealth of opportunities for career growth and innovation.
-        </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container" style="background-color: #a5cae9;">
+            <a class="navbar-brand" href="#">Ana Filipa Torres</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-      </div>
-    </section>
-    <section class="section">
-      <h2>Connect with me <a style="background-color: #dcdcdc; border-radius: 50%;" href="https://www.linkedin.com/in/ana-torres-2323b5268" target="_blank" class="btn btn-primary btn-lg">
-    <i class="fab fa-linkedin mr-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-        </svg>
-    </i>
-</a>
-</h2>
-    </section>
-     <section class="section">
-      <h2>Organizational Competencies</h2>
-      <ul>
-        <li>Sense of responsibility;</li>
-        <li>Ability to adapt to new cultures;</li>
-        <li>Sense of organization acquired in the tasks performed in registration and archive work.</li>
-      </ul>
-      <h2>Social and communication skills</h2>
-      <ul>
-        <li>Team spirit</li>
-        <li>Good communication skills</li>
-      </ul>
-    </section>
-    <section class="section">
-      <h2>Profissional Experience</h2>
-      <p style="font-size: 1.1em; font-weight: bold;">Accounting technician - VERTRA – SERVIÇOS DE CONTABILIDADE E GESTÃO, LDA</p>
-      <span>04/2021 – 01/2023</span>
-      <span>Póvoa de Varzim, Portugal</span>
-      <ul>
-        <li>General accounting tasks</li>
-        <li>Registration and enrollment of workers in social security and FCT</li>
-        <li>Processing of salary information</li>
-      </ul>
-      <p style="font-size: 1.1em; font-weight: bold;">Intern and Accounting assistant - CORSE CONSEIL EXPERTISE</p>
-      <span>02/2020 – 12/2020</span>
-      <span>Porto Vecchio, France</span>
-      <ul>
-        <li>General accounting tasks</li>
-        <li>General administrative tasks</li>
-        <li>Execution of several administrative tasks</li>
-      </ul>
-      <p style="font-size: 1.1em; font-weight: bold;">Intern - MATISACONTA - CONTABILIDADE E CONSULTADORIA, LDA</p>
-      <span>12/2018 – 09/2019</span>
-      <span>Póvoa de Varzim, Portugal</span>
-      <ul>
-        <li>General accounting tasks</li>
-        <li>Registration and enrollment of workers in social security and FCT</li>
-        <li>Preparation and preparation of invoices, receipts and transport notes for customers</li>
-        <li>Handling and sending IRS</li>
-        <li>Sending tax and social security declarations</li>
-        <li>Processing of salary information</li>
-        <li>Performance of several administrative tasks.General accounting tasks</li>
-      </ul>
-      <p style="font-size: 1.1em; font-weight: bold;">Intern - FAST ACTION – CONTABILIDADE E CONSULTADORIA, LDA</p>
-      <span>05/2018 – 07/2018</span>
-      <span>Póvoa de Varzim, Portugal</span>
-      <ul>
-        <li>General accounting tasks</li>
-        <li>Sending tax and social declarations</li>
-        <li>Execution of several administrative tasks</li>
-      </ul>
-    </section>
-    <section class="section">
-      <h2>Education</h2>
-      <p>IPCA – Instituto Politécnico do Cávado e do Ave</p>
-      <ul>
-        <li>PowerPlatform Course</li>
-        <li>2023-Present</li>
-      </ul>
-      <p>IPCA – Instituto Politécnico do Cávado e do Ave</p>
-      <ul>
-        <li>Master in Manegement - Specialization branch in Human Resources Managment</li>
-        <li>2021-Present</li>
-      </ul>
-      <p>ISCAP – Instituto Superior de Contabilidade e Administração do Porto</p>
-      <ul>
-        <li>Degree in Accounting and Administration</li>
-        <li>2014-2017</li>
-      </ul>
-    </section>
-    <section class="section">
-      <h2>Language</h2>
-      <ul>
-        <li>Inglês - B2</li>
-        <li>Francês - A1</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Projects</h2>
-      <p>
-        In this projects the goal was to develop and learn the most of the PowerPlatform components and tools,
-        and develop solutions that were efficient.
-      </p>
-    </section>
-    <section id="projects">
-      <div class="project">
-        <div class="project-card">
-          <img src="curriculumhtml/imagem/Screenshot.png" alt="Project 1">
-          <div class="project-info">
-            <h3>Project 1</h3>
-            <p>Model-Driven APP</p>
-            <a href="#">Link to Project 1</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project-card">
-          <img src="curriculumhtml/imagem/Screenshot.png" alt="Project 2">
-          <div class="project-info">
-            <h3>Project 2</h3>
-            <p>Model-Driven APP</p>
-            <a href="#">Link to Project 2</a>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project-card">
-          <img src="curriculumhtml/imagem/Screenshot.png" alt="Project 3">
-          <div class="project-info">
-            <h3>Project 3</h3>
-            <p>Canvas APP</p>
-            <a href="https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/tree/main/canvas%20app%20telemovel">Link to Project 3</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <div class="container">
+        <header class="section">
+            <p>Power Platform Developer</p>
+            <img src="curriculumhtml/imagem/1677688121064.jpeg" alt="Ana's Photo">
+        </header>
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi there! My name is Ana, and I'm excited to share my journey of entering the world of IT through
+                low-code development.
+                Coming from a non-technical background, I was initially intimidated by the complexities of coding.
+                However, discovering the power of low-code platforms opened up a whole new world of possibilities for
+                me.
+                It has allowed me to leverage my existing skills while acquiring new ones, opening up a wealth of
+                opportunities for career growth and innovation.
+            </p>
+        </section>
+        <section class="section">
+            <h2>Organizational Competencies</h2>
+            <ul>
+                <li>Sense of responsibility;</li>
+                <li>Ability to adapt to new cultures;</li>
+                <li>Sense of organization acquired in the tasks performed in registration and archive work.</li>
+            </ul>
+            <h2>Social and communication skills</h2>
+            <ul>
+                <li>Team spirit</li>
+                <li>Good communication skills</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Profissional Experience</h2>
+            <p style="font-size: 1.1em; font-weight: bold;">Accounting technician - VERTRA – SERVIÇOS DE CONTABILIDADE E
+                GESTÃO, LDA</p>
+            <span>04/2021 – 01/2023</span>
+            <span>Póvoa de Varzim, Portugal</span>
+            <ul>
+                <li>General accounting tasks</li>
+                <li>Registration and enrollment of workers in social security and FCT</li>
+                <li>Processing of salary information</li>
+            </ul>
+            <p style="font-size: 1.1em; font-weight: bold;">Intern and Accounting assistant - CORSE CONSEIL EXPERTISE
+            </p>
+            <span>02/2020 – 12/2020</span>
+            <span>Porto Vecchio, France</span>
+            <ul>
+                <li>General accounting tasks</li>
+                <li>General administrative tasks</li>
+                <li>Execution of several administrative tasks</li>
+            </ul>
+            <p style="font-size: 1.1em; font-weight: bold;">Intern - MATISACONTA - CONTABILIDADE E CONSULTADORIA, LDA
+            </p>
+            <span>12/2018 – 09/2019</span>
+            <span>Póvoa de Varzim, Portugal</span>
+            <ul>
+                <li>General accounting tasks</li>
+                <li>Registration and enrollment of workers in social security and FCT</li>
+                <li>Preparation and preparation of invoices, receipts and transport notes for customers</li>
+                <li>Handling and sending IRS</li>
+                <li>Sending tax and social security declarations</li>
+                <li>Processing of salary information</li>
+                <li>Performance of several administrative tasks.General accounting tasks</li>
+            </ul>
+            <p style="font-size: 1.1em; font-weight: bold;">Intern - FAST ACTION – CONTABILIDADE E CONSULTADORIA, LDA
+            </p>
+            <span>05/2018 – 07/2018</span>
+            <span>Póvoa de Varzim, Portugal</span>
+            <ul>
+                <li>General accounting tasks</li>
+                <li>Sending tax and social declarations</li>
+                <li>Execution of several administrative tasks</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Education</h2>
+            <p>IPCA – Instituto Politécnico do Cávado e do Ave</p>
+            <ul>
+                <li>PowerPlatform Course</li>
+                <li>2023-Present</li>
+            </ul>
+            <p>IPCA – Instituto Politécnico do Cávado e do Ave</p>
+            <ul>
+                <li>Master in Manegement - Specialization branch in Human Resources Managment</li>
+                <li>2021-Present</li>
+            </ul>
+            <p>ISCAP – Instituto Superior de Contabilidade e Administração do Porto</p>
+            <ul>
+                <li>Degree in Accounting and Administration</li>
+                <li>2014-2017</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Language</h2>
+            <ul>
+                <li>Inglês - B2</li>
+                <li>Francês - A1</li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <p>
+                In these projects, the goal was to develop and learn the most from the Power Platform components and
+                tools,
+                and develop efficient solutions.
+            </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="curriculumhtml/imagem/Screenshot.png" alt="Project 1">
+                        <div class="project-info">
+                            <h3>Project 1</h3>
+                            <p>Model-Driven APP</p>
+                            <a href="#">Link to Project 1</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="curriculumhtml/imagem/Screenshot.png" alt="Project 2">
+                        <div class="project-info">
+                            <h3>Project 2</h3>
+                            <p>Model-Driven APP</p>
+                            <a href="#">Link to Project 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="curriculumhtml/imagem/Screenshot.png" alt="Project 3">
+                        <div class="project-info">
+                            <h3>Project 3</h3>
+                            <p>Canvas APP</p>
+                            <a
+                                href="https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/tree/main/canvas%20app%20telemovel">Link
+                                to Project 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/ana-torres-2323b5268" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M19.922 0H4.078C1.83 0 0 1.83 0 4.078v15.844C0 22.17 1.83 24 4.078 24h15.844C22.17 24 24 22.17 24 19.922V4.078C24 1.83 22.17 0 19.922 0zM7.535 20.663H4.905V9.228h2.63v11.435zM6.22 8.171a1.737 1.737 0 01-1.737-1.738c0-.96.777-1.738 1.737-1.738a1.737 1.737 0 110 3.476zm14.443 12.492h-2.626v-5.31c0-1.253-.025-2.867-1.74-2.867-1.742 0-2.008 1.354-2.008 2.753v5.424H10.43V9.228h2.552v1.465h.036c.356-.672 1.226-1.38 2.518-1.38 2.69 0 3.184 1.768 3.184 4.066v5.285h-.002z" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/AnaFilipaTorres" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.303 3.438 9.8 8.209 11.387.6.111.793-.261.793-.579 0-.285-.012-1.04-.015-2.041-3.338.725-4.042-1.561-4.042-1.561-.547-1.387-1.336-1.756-1.336-1.756-1.09-.745.082-.729.082-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.809 1.304 3.496.996.108-.777.418-1.304.762-1.604-2.665-.297-5.467-1.332-5.467-5.926 0-1.31.465-2.383 1.235-3.22-.124-.296-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.58 11.58 0 013.023-.404c1.026.004 2.06.138 3.023.404 2.29-1.552 3.296-1.23 3.296-1.23.656 1.652.245 2.88.121 3.176.77.837 1.232 1.91 1.232 3.22 0 4.606-2.807 5.625-5.479 5.916.43.372.816 1.103.816 2.22 0 1.604-.015 2.893-.015 3.287 0 .32.192.694.799.576C20.566 21.796 24 17.3 24 12c0-6.63-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                </li>
+                <!-- Add more social icons as needed -->
+            </ul>
+        </section>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
