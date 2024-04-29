@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="18fc5074-8a76-42a6-b9d7-56034e219b3b">
+  <content>{"value":"true"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authentication/Registration/OpenRegistrationEnabled</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

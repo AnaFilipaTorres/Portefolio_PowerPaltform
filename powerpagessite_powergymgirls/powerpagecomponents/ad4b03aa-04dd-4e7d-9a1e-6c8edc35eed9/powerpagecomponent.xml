@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="ad4b03aa-04dd-4e7d-9a1e-6c8edc35eed9">
+  <content>{"value":"true"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Profile/Enabled</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="68a63b51-a4cc-47b1-8e3b-0d48b4f55a56">
+  <content>{"adx_webpageaccesscontrolrule_webrole":["25509a8b-5862-4e80-8595-bea310b476cd"],"right":1,"scope":1,"webpageid":"8d6bd0a6-4c40-43bb-9751-650edf689120"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Grant Change to Administrators</name>
+  <powerpagecomponenttype>10</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

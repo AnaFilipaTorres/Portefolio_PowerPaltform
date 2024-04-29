@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="118bb4db-7c96-48f3-b7c5-3f4ee73c2365">
+  <content>{"value":"False"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Profile/ForceSignUp</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

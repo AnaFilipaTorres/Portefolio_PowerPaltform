@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="297639a4-30a6-4ff5-a7c3-b59733d54c2a">
+  <content>{"description":"A true or false value. If set to true, the local account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account.","value":"False"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authentication/Registration/LocalLoginDeprecated</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

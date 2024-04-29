@@ -1,0 +1,34 @@
+<powerpagecomponent powerpagecomponentid="2bbc4d50-7fa6-411a-b928-6f6d14ec5212">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div class=\"row sectionBlockLayout text-start\" style=\"min-height: auto; padding: 8px;\"&gt;\r\n    &lt;div class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\r\n      &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"padding: 16px; margin: 60px 0px;\"&gt;&lt;/div&gt;\r\n    &lt;/div&gt;\r\n  &lt;/div&gt;\r\n  ",
+  "displayorder": 2,
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150000,
+  "hiddenfromsitemap": false,
+  "isroot": true,
+  "pagetemplateid": "7d75c350-b424-4f7c-9709-1ec5642d0162",
+  "parentpageid": "71652aca-f6ba-4f03-a6fe-60dd68351feb",
+  "partialurl": "Subpage-one",
+  "publishingstateid": "34291eeb-1f4a-489c-b1a5-22ed7b858ace",
+  "sharedpageconfiguration": true,
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "title": "Subpage one"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Customer Service</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>Subpage one&lt;div class="row sectionBlockLayout text-start" style="min-height: auto; padding: 8px;"&gt;
+    &lt;div class="container" style="display: flex; flex-wrap: wrap;"&gt;
+      &lt;div class="col-lg-12 columnBlockLayout" style="padding: 16px; margin: 60px 0px;"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  Customer Service</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

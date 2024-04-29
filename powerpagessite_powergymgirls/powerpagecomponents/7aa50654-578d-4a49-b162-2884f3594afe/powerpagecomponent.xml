@@ -1,0 +1,63 @@
+<powerpagecomponent powerpagecomponentid="7aa50654-578d-4a49-b162-2884f3594afe">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div id=\"i7kt2\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"idsg4\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"izemb\" class=\"col-lg-12 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px; margin: 60px 0px;\"&gt;\n      &lt;h2 id=\"ipkmt\" style=\"color: var(--portalThemeColor9); font-family: Caveat; font-weight: 700; font-size: 50px;\"&gt;​&lt;b id=\"iordf\" aria-label=\"Text Subpage 2 Press enter to edit\" style=\"position: relative;\"&gt;Horários&amp;nbsp;&lt;/b&gt;&lt;/h2&gt;\n      &lt;p id=\"i9pin\" style=\"font-family: Times New Roman;\"&gt;Horários dos nossos ginásios:&amp;nbsp;&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"iegsm\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"i4jd5\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ivp1m\" class=\"col-lg-12 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;p id=\"ijx8yo\" style=\"font-family: Times New Roman;\"&gt;​&lt;b id=\"iyl86k\"&gt;Matosinhos&lt;/b&gt;&lt;/p&gt;\n      &lt;p id=\"iis0c2\" style=\"font-family: Times New Roman;\"&gt;05:00h às 23:00h&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n      &lt;p id=\"in3dhk\" style=\"font-family: Times New Roman;\"&gt;Rua das Flores, 00, 4000 - 00 Matosinhos&amp;nbsp;&lt;/p&gt;\n      &lt;div id=\"ixre32\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n      &lt;p id=\"iscycr\" style=\"text-align: left; font-family: Times New Roman;\"&gt;​&lt;b&gt;Setúbal&amp;nbsp;&lt;/b&gt;&lt;/p&gt;\n      &lt;p id=\"ito1lj\" style=\"font-family: Times New Roman;\"&gt;06:00 às 20:00h&amp;nbsp;&lt;/p&gt;\n      &lt;p id=\"inh5en\" style=\"font-family: Times New Roman;\"&gt;Rua das Tulipas, 00 , 4000 - 00 Setúbal&lt;/p&gt;\n      &lt;div id=\"i7rhvn\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n      &lt;p id=\"i2skum\" style=\"font-family: Times New Roman;\"&gt;​&lt;b&gt;Espinho&amp;nbsp;&lt;/b&gt;&lt;/p&gt;\n      &lt;p id=\"ikwbv4\" style=\"font-family: Times New Roman;\"&gt;07:00h às 22:00h&amp;nbsp;&lt;/p&gt;\n      &lt;p id=\"i18se4\" style=\"font-family: Times New Roman;\"&gt;Rua das Rosas, 00 , 4000 - 00 Espinho&amp;nbsp;&lt;/p&gt;\n      &lt;div id=\"ihahu4\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n      &lt;p id=\"ieimgu\" style=\"font-family: Times New Roman;\"&gt;​&lt;b&gt;Gondomar&amp;nbsp;&lt;/b&gt;&lt;/p&gt;\n      &lt;p id=\"i9912j\" style=\"font-family: Times New Roman;\"&gt;09:00h às 21:00h&amp;nbsp;&lt;/p&gt;\n      &lt;p id=\"ifemnc\" style=\"font-family: Times New Roman;\"&gt;Rua das Árvores, 00 , 4000 - 00 Gondomar&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "displayorder": 2,
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150000,
+  "hiddenfromsitemap": false,
+  "isroot": false,
+  "pagetemplateid": "7d75c350-b424-4f7c-9709-1ec5642d0162",
+  "parentpageid": "71652aca-f6ba-4f03-a6fe-60dd68351feb",
+  "partialurl": "Subpage-two",
+  "publishingstateid": "34291eeb-1f4a-489c-b1a5-22ed7b858ace",
+  "rootwebpageid": "3ac3121d-dbcd-4f80-867b-718a9f5776ac",
+  "sharedpageconfiguration": true,
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "title": "Subpage two",
+  "customcss": "@import url('https://content.powerapps.com/resource/powerappsportal/fonts/caveat/v17/700.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/caveat/v17/400.css');\n"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Horários</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>cc86718d-b80c-49ba-9984-31a144cec373</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Subpage two&lt;div id="i7kt2" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="idsg4" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="izemb" class="col-lg-12 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px; margin: 60px 0px;"&gt;
+      &lt;h2 id="ipkmt" style="color: var(--portalThemeColor9); font-family: Caveat; font-weight: 700; font-size: 50px;"&gt;​&lt;b id="iordf" aria-label="Text Subpage 2 Press enter to edit" style="position: relative;"&gt;Horários&amp;nbsp;&lt;/b&gt;&lt;/h2&gt;
+      &lt;p id="i9pin" style="font-family: Times New Roman;"&gt;Horários dos nossos ginásios:&amp;nbsp;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="iegsm" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="i4jd5" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ivp1m" class="col-lg-12 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;p id="ijx8yo" style="font-family: Times New Roman;"&gt;​&lt;b id="iyl86k"&gt;Matosinhos&lt;/b&gt;&lt;/p&gt;
+      &lt;p id="iis0c2" style="font-family: Times New Roman;"&gt;05:00h às 23:00h&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+      &lt;p id="in3dhk" style="font-family: Times New Roman;"&gt;Rua das Flores, 00, 4000 - 00 Matosinhos&amp;nbsp;&lt;/p&gt;
+      &lt;div id="ixre32" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+      &lt;p id="iscycr" style="text-align: left; font-family: Times New Roman;"&gt;​&lt;b&gt;Setúbal&amp;nbsp;&lt;/b&gt;&lt;/p&gt;
+      &lt;p id="ito1lj" style="font-family: Times New Roman;"&gt;06:00 às 20:00h&amp;nbsp;&lt;/p&gt;
+      &lt;p id="inh5en" style="font-family: Times New Roman;"&gt;Rua das Tulipas, 00 , 4000 - 00 Setúbal&lt;/p&gt;
+      &lt;div id="i7rhvn" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+      &lt;p id="i2skum" style="font-family: Times New Roman;"&gt;​&lt;b&gt;Espinho&amp;nbsp;&lt;/b&gt;&lt;/p&gt;
+      &lt;p id="ikwbv4" style="font-family: Times New Roman;"&gt;07:00h às 22:00h&amp;nbsp;&lt;/p&gt;
+      &lt;p id="i18se4" style="font-family: Times New Roman;"&gt;Rua das Rosas, 00 , 4000 - 00 Espinho&amp;nbsp;&lt;/p&gt;
+      &lt;div id="ihahu4" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+      &lt;p id="ieimgu" style="font-family: Times New Roman;"&gt;​&lt;b&gt;Gondomar&amp;nbsp;&lt;/b&gt;&lt;/p&gt;
+      &lt;p id="i9912j" style="font-family: Times New Roman;"&gt;09:00h às 21:00h&amp;nbsp;&lt;/p&gt;
+      &lt;p id="ifemnc" style="font-family: Times New Roman;"&gt;Rua das Árvores, 00 , 4000 - 00 Gondomar&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Horários</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,20 @@
+<powerpagecomponent powerpagecomponentid="d008b7bd-a1cd-49eb-8666-033123aa0f74">
+  <content>{
+  "powerpagesitelanguageid": "cc86718d-b80c-49ba-9984-31a144cec373",
+  "filecontent": null,
+  "display_name": "Logo URL",
+  "type": 756150000,
+  "value": "/Screenshot 2024-03-13 161642.png"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Logo URL</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>cc86718d-b80c-49ba-9984-31a144cec373</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,25 @@
+<powerpagecomponent powerpagecomponentid="f63880a8-9847-49de-9697-40e23772a424">
+  <content>{"copy":"&lt;div class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; min-height: 50px; background: var(--portalThemeColor5);\"&gt;&lt;/div&gt;\r\n&lt;div class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; min-height: 50px; background: var(--portalThemeColor6);\"&gt;&lt;/div&gt;\r\n&lt;div class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; text-align: left; min-height: 374px;\"&gt;\r\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\r\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px;\"&gt;&lt;img src=\"/Cat-PC.png\" alt=\"Cat\" name=\"Cat-PC.png\" style=\"width: 200px; height: 161px; margin-left: auto; margin-right: auto;\" tabindex=\"0\"&gt;\r\n      &lt;h2 style=\"text-align: center; color: var(--portalThemeColor4);\"&gt;Page not found&lt;/h2&gt;\r\n      &lt;p style=\"text-align: center; color: var(--portalThemeColor8);\"&gt;Check the link and try again&lt;/p&gt;\r\n    &lt;/div&gt;\r\n  &lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;div class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; min-height: 315px; background: var(--portalThemeColor1);\"&gt;&lt;/div&gt;","enablerating":false,"enabletracking":false,"excludefromsearch":true,"feedbackpolicy":756150000,"hiddenfromsitemap":true,"isroot":false,"pagetemplateid":"7d75c350-b424-4f7c-9709-1ec5642d0162","parentpageid":"8d6bd0a6-4c40-43bb-9751-650edf689120","partialurl":"page-not-found","publishingstateid":"34291eeb-1f4a-489c-b1a5-22ed7b858ace","rootwebpageid":"340140ca-7483-408f-961a-cdb4a9d30917","sharedpageconfiguration":false}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Page Not Found</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>cc86718d-b80c-49ba-9984-31a144cec373</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>&lt;div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; min-height: 50px; background: var(--portalThemeColor5);"&gt;&lt;/div&gt;
+&lt;div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; min-height: 50px; background: var(--portalThemeColor6);"&gt;&lt;/div&gt;
+&lt;div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; text-align: left; min-height: 374px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px;"&gt;&lt;img src="/Cat-PC.png" alt="Cat" name="Cat-PC.png" style="width: 200px; height: 161px; margin-left: auto; margin-right: auto;" tabindex="0"&gt;
+      &lt;h2 style="text-align: center; color: var(--portalThemeColor4);"&gt;Page not found&lt;/h2&gt;
+      &lt;p style="text-align: center; color: var(--portalThemeColor8);"&gt;Check the link and try again&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; min-height: 315px; background: var(--portalThemeColor1);"&gt;&lt;/div&gt;Page Not Found</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

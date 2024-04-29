@@ -1,0 +1,23 @@
+<powerpagecomponent powerpagecomponentid="bfe92a76-f8e3-4fc3-b476-4cc4ec8c05b8">
+  <content>{
+  "filecontent": null,
+  "disablepagevalidation": false,
+  "displayimageonly": false,
+  "displayorder": 2,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "pageid": "2bbc4d50-7fa6-411a-b928-6f6d14ec5212",
+  "parentweblinkid": "62d7fa16-b96f-4f7b-ac01-9cb205521988",
+  "publishingstateid": "34291eeb-1f4a-489c-b1a5-22ed7b858ace",
+  "robotsfollowlink": true,
+  "weblinksetid": "a3b278f9-01f4-446c-b886-84109eb03b0c"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Customer Service</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

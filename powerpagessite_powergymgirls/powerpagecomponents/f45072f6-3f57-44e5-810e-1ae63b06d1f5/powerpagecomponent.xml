@@ -1,0 +1,20 @@
+<powerpagecomponent powerpagecomponentid="f45072f6-3f57-44e5-810e-1ae63b06d1f5">
+  <content>{
+  "powerpagesitelanguageid": "cc86718d-b80c-49ba-9984-31a144cec373",
+  "filecontent": null,
+  "display_name": "Logo alt text",
+  "type": 756150000,
+  "value": "Power Gym Girls"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Logo alt text</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>cc86718d-b80c-49ba-9984-31a144cec373</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

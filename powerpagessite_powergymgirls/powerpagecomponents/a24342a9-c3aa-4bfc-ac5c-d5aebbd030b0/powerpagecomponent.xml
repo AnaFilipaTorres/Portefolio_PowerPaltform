@@ -1,0 +1,50 @@
+<powerpagecomponent powerpagecomponentid="a24342a9-c3aa-4bfc-ac5c-d5aebbd030b0">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div id=\"isfm2\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"i21x7\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"i29xi\" class=\"col-lg-12 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px; margin: 60px 0px;\"&gt;\n      &lt;h2 id=\"ixisl\" style=\"color: var(--portalThemeColor9); font-family: Caveat; font-size: 50px;\"&gt;​&lt;b id=\"iutln\" aria-label=\"Text Customer Service Press enter to edit\" style=\"position: relative;\"&gt;Customer Service&lt;/b&gt;&lt;/h2&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"iauwn\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"iercy\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"i1ttf\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;&lt;img src=\"/Gym-equipment-and-needs.jpg\" alt=\"Gym-equipment-and-needs\" name=\"Gym-equipment-and-needs.jpg\" id=\"i89gdl\" style=\"width: 101.54%; height: 375px; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"i2vkbi\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;h2 id=\"ix8d7j\" style=\"font-family: Caveat;\"&gt;​​&lt;b id=\"iw1t59\" aria-label=\"Text Chatbot Press enter to edit\" style=\"position: relative;\"&gt;Fale Connosco&lt;/b&gt;&lt;/h2&gt;\n      &lt;button onclick=\"window.location.href='https://copilotstudio.microsoft.com/environments/12ffb8d3-8dca-e1f6-a653-41eec1a33a48/bots/cr4ab_chatBotPowerGymGirl/canvas?__version__=2/'\" type=\"button\" value=\"https://copilotstudio.microsoft.com/environments/12ffb8d3-8dca-e1f6-a653-41eec1a33a48/bots/cr4ab_chatBotPowerGymGirl/canvas?__version__=2\" id=\"i99311\" class=\"button1\"&gt;Clique aqui&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "displayorder": 1,
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150000,
+  "hiddenfromsitemap": false,
+  "isroot": false,
+  "pagetemplateid": "7d75c350-b424-4f7c-9709-1ec5642d0162",
+  "parentpageid": "71652aca-f6ba-4f03-a6fe-60dd68351feb",
+  "partialurl": "Subpage-one",
+  "publishingstateid": "34291eeb-1f4a-489c-b1a5-22ed7b858ace",
+  "rootwebpageid": "2bbc4d50-7fa6-411a-b928-6f6d14ec5212",
+  "sharedpageconfiguration": true,
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "title": "Subpage one",
+  "customcss": "@import url('https://content.powerapps.com/resource/powerappsportal/fonts/caveat/v17/400.css');\n"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Customer Service</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>cc86718d-b80c-49ba-9984-31a144cec373</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Subpage one&lt;div id="isfm2" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="i21x7" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="i29xi" class="col-lg-12 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px; margin: 60px 0px;"&gt;
+      &lt;h2 id="ixisl" style="color: var(--portalThemeColor9); font-family: Caveat; font-size: 50px;"&gt;​&lt;b id="iutln" aria-label="Text Customer Service Press enter to edit" style="position: relative;"&gt;Customer Service&lt;/b&gt;&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="iauwn" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="iercy" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="i1ttf" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;&lt;img src="/Gym-equipment-and-needs.jpg" alt="Gym-equipment-and-needs" name="Gym-equipment-and-needs.jpg" id="i89gdl" style="width: 101.54%; height: 375px; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="i2vkbi" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;h2 id="ix8d7j" style="font-family: Caveat;"&gt;​​&lt;b id="iw1t59" aria-label="Text Chatbot Press enter to edit" style="position: relative;"&gt;Fale Connosco&lt;/b&gt;&lt;/h2&gt;
+      &lt;button onclick="window.location.href='https://copilotstudio.microsoft.com/environments/12ffb8d3-8dca-e1f6-a653-41eec1a33a48/bots/cr4ab_chatBotPowerGymGirl/canvas?__version__=2/'" type="button" value="https://copilotstudio.microsoft.com/environments/12ffb8d3-8dca-e1f6-a653-41eec1a33a48/bots/cr4ab_chatBotPowerGymGirl/canvas?__version__=2" id="i99311" class="button1"&gt;Clique aqui&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Customer Service</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

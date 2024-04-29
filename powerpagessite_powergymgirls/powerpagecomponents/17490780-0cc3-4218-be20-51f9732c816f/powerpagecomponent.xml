@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="17490780-0cc3-4218-be20-51f9732c816f">
+  <content>{"disablepagevalidation":false,"displayimageonly":false,"displayorder":2,"displaypagechildlinks":false,"openinnewwindow":false,"pageid":"3ac3121d-dbcd-4f80-867b-718a9f5776ac","parentweblinkid":"f783b4cb-ee99-4620-88dc-ff544248772d","publishingstateid":"34291eeb-1f4a-489c-b1a5-22ed7b858ace","robotsfollowlink":true,"weblinksetid":"c57ad153-7421-4c0e-846e-7d96ee25917f"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Subpage two</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>765bd64a-f8bc-44fe-a94d-46d0117f35a6</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
