@@ -65,6 +65,11 @@ When engaging with the core components of the Power Platform, prioritizing proce
 
 In this academic project, the primary objective was to develop a chatbot and gain an understanding of how its components, such as topics, entities, and the various development tools provided, interact with each other.
 
+
+The primary objective was to create a system that allows users to purchase items from the gym. This involved developing a comprehensive set of trigger phrases to enable the chatbot to understand user requests. The goal was to create a chatbot that is as user-friendly as possible and seamlessly integrates with a SharePoint table where the gym's stock information is stored. To achieve this, it was essential to develop workflows using the Power Platform to connect various applications. These workflows facilitate communication between the chatbot, SharePoint, and other relevant systems, ensuring accurate and real-time updates on item availability for users.
+
+1- Topic created in the copilot
+
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/e0979834-fe8f-4cb2-b969-4298195eca4f)
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/2e4b550a-5ee2-48cd-b6fc-641a52457d8b)
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/edb7a71b-f046-475d-ad2f-3104dfd5f555)
@@ -72,6 +77,11 @@ In this academic project, the primary objective was to develop a chatbot and gai
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c4f224a0-e21f-4053-8b12-feab4a57ec3d)
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/a19442a0-4725-4dab-adba-a7b6579e27c8)
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/034c0aa5-a131-4236-a990-0ab4ddecb7cc)
+
+
+2 - One of the flows created in Power Automate integrated an action in the chatbot's workflow. When a user initiates a purchase, this flow triggers the creation of an entry in the "Requisicao_produto" table and simultaneously sends an email confirmation to the buyer. This ensures that the purchase process is both logged in the system and communicated effectively to the user.
+
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/80e6b7b9-bc8d-4acf-922c-f2909c4a7722)
 
 
 
