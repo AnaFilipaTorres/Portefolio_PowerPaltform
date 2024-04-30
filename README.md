@@ -56,6 +56,7 @@ When engaging with the core components of the Power Platform, prioritizing proce
 
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/25580df7-5170-4815-b58d-02c4feb2218f)
 
+2 - The goal of developing this Power Automate was to trigger when an email arrived containing information about a class the user expressed interest in, and then inform the professor accordingly.
 
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/34a5c8b2-2538-493c-a9be-6281baaf9ae3)
 
