@@ -52,6 +52,7 @@ Dashboard:
 
 When engaging with the core components of the Power Platform, prioritizing process automation became essential to streamline user interactions. This approach aimed to enhance user experience by automating repetitive tasks and simplifying complex processes, ultimately fostering seamless interaction and efficiency within the platform.
 
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/25580df7-5170-4815-b58d-02c4feb2218f)
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/02998fcc-b0b0-4370-ae6d-fd430e66a07d)
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/34a5c8b2-2538-493c-a9be-6281baaf9ae3)
 
