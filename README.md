@@ -1,6 +1,6 @@
 # Portefolio_PowerPaltform
 
- **_Mobile Canvas App_**:iphone:
+ **_Mobile Canvas App_**
 
 In this academic project, the goal was to create a canvas app tailored for a gym environment, empowering employees with essential functionalities.
 Users could:
@@ -19,7 +19,7 @@ Users could:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/aed4c3de-de92-4739-8102-270e830eff31)
 
 
- **_Model-Driven App_** :computer:
+ **_Model-Driven App_** 
 
  In this academic project, the goal was to develop a Model-Driven App from scratch. This involved the creation of all the necessary Dataverse tables, form desing, establishment of the tables relationship, implementation of business rules, integration of cloud flows, developed initially on Power Automate. Each step was crucial in crafting a comprehensive and functional solution tailored to the specific needs of the project. 
 
@@ -28,7 +28,7 @@ Users could:
 
  
 
-**_Power BI_** :computer:
+**_Power BI_**
 
 Here are some examples of the academic projects that i did in Power Bi, where I started doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
 In the Power BI Desktop in all projects that i developed, i created calculated columns, develop metrics, establish relationships beteween all the datasources connected, and used the tools such as:Ai insights, Find anomalys, Bookmarks, etc.
@@ -48,12 +48,75 @@ Dashboard:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c291deb0-09fa-4698-9583-5942fdc7a034)
 
 
-**_Power Automate_** :computer:
+**_Power Automate_** 
 
 When engaging with the core components of the Power Platform, prioritizing process automation became essential to streamline user interactions. This approach aimed to enhance user experience by automating repetitive tasks and simplifying complex processes, ultimately fostering seamless interaction and efficiency within the platform.
 
-![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/02998fcc-b0b0-4370-ae6d-fd430e66a07d)
+1 - The goal of developing this Power Automate was to trigger an approval process when an item and its corresponding price were added to the Dataverse table.
+
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/25580df7-5170-4815-b58d-02c4feb2218f)
+
+2 - The goal of developing this Power Automate was to trigger when an email arrived containing information about a class the user expressed interest in, and then inform the professor accordingly.
+
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/34a5c8b2-2538-493c-a9be-6281baaf9ae3)
+
+
+**_Copilot_** 
+
+In this academic project, the primary objective was to develop a chatbot and gain an understanding of how its components, such as topics, entities, and the various development tools provided, interact with each other.
+
+
+The primary objective was to create a system that allows users to purchase items from the gym. This involved developing a comprehensive set of trigger phrases to enable the chatbot to understand user requests. The goal was to create a chatbot that is as user-friendly as possible and seamlessly integrates with a SharePoint table where the gym's stock information is stored. To achieve this, it was essential to develop workflows using the Power Platform to connect various applications. These workflows facilitate communication between the chatbot, SharePoint, and other relevant systems, ensuring accurate and real-time updates on item availability for users.
+
+1- Topic created in the copilot
+
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/e0979834-fe8f-4cb2-b969-4298195eca4f)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/2e4b550a-5ee2-48cd-b6fc-641a52457d8b)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/edb7a71b-f046-475d-ad2f-3104dfd5f555)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c998fe85-93c9-460d-9224-7f0b25f039ec)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c4f224a0-e21f-4053-8b12-feab4a57ec3d)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/a19442a0-4725-4dab-adba-a7b6579e27c8)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/034c0aa5-a131-4236-a990-0ab4ddecb7cc)
+
+
+2 - One of the flows created in Power Automate integrated an action in the chatbot's workflow. When a user initiates a purchase, this flow triggers the creation of an entry in the "Requisicao_produto" table and simultaneously sends an email confirmation to the buyer. This ensures that the purchase process is both logged in the system and communicated effectively to the user.
+
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/80e6b7b9-bc8d-4acf-922c-f2909c4a7722)
+
+
+**_Power Pages Website_** 
+
+The primary objective of this academic project was to develop a Power Pages website utilizing a provided template. The goal was to gain a comprehensive understanding of the various tools and functionalities offered by this component of the Power Platform.
+
+Home page
+![site-v9zs8 powerappsportals com_ (1)](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/98af6c61-2bfa-43f2-80df-ab6774fae01c)
+
+
+The main page allows users to click on the image to redirect to the desired page
+![site-v9zs8 powerappsportals com_page_](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7453e46a-2e9d-4fec-a1c1-e1aed2ffd1b7)
+
+
+On this page, you can find the hours when the gyms are open.
+![site-v9zs8 powerappsportals com_page_Subpage-two_](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c0f7a5bc-5447-48cd-b4d4-a95e9422749e)
+
+
+This page is dedicated to customer service, and when the user clicks the button, it redirects them to the previously created chatbot. 
+This ensures a seamless transition for users seeking assistance, allowing them to interact with the chatbot for support.
+![site-v9zs8 powerappsportals com_page_Subpage-one_](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/59e28c3b-492e-412f-80d4-8ab014e8af5a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
