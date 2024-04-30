@@ -89,26 +89,22 @@ The primary objective was to create a system that allows users to purchase items
 The primary objective of this academic project was to develop a Power Pages website utilizing a provided template. The goal was to gain a comprehensive understanding of the various tools and functionalities offered by this component of the Power Platform.
 
 Home page
-
 ![site-v9zs8 powerappsportals com_ (1)](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/98af6c61-2bfa-43f2-80df-ab6774fae01c)
-
-![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7d40b6c4-1926-45db-b2a0-621bd36970c5)
-![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/bf59775c-3784-4e7c-8b23-4247339f353b)
-![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/5201011f-fb56-4a09-866f-bdbc2346ce92)
 
 
 The main page allows users to click on the image to redirect to the desired page
-
-![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/36999f44-867c-4dc6-a5ff-84f06bb2de5c)
+![site-v9zs8 powerappsportals com_page_](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7453e46a-2e9d-4fec-a1c1-e1aed2ffd1b7)
 
 
 On this page, you can find the hours when the gyms are open.
-![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/56a35ecc-d2f9-49b6-9996-f27d928bffc4)
+![site-v9zs8 powerappsportals com_page_Subpage-two_](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c0f7a5bc-5447-48cd-b4d4-a95e9422749e)
 
 
 This page is dedicated to customer service, and when the user clicks the button, it redirects them to the previously created chatbot. 
 This ensures a seamless transition for users seeking assistance, allowing them to interact with the chatbot for support.
-![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7cefac26-9422-4b9d-b476-f989971f5f9d)
+![site-v9zs8 powerappsportals com_page_Subpage-one_](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/59e28c3b-492e-412f-80d4-8ab014e8af5a)
+
+
 
 
 
