@@ -1,6 +1,6 @@
 # Portefolio_PowerPaltform
 
- **_Mobile Canvas App_**:iphone:
+ **_Mobile Canvas App_**
 
 In this academic project, the goal was to create a canvas app tailored for a gym environment, empowering employees with essential functionalities.
 Users could:
@@ -19,7 +19,7 @@ Users could:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/aed4c3de-de92-4739-8102-270e830eff31)
 
 
- **_Model-Driven App_** :computer:
+ **_Model-Driven App_** 
 
  In this academic project, the goal was to develop a Model-Driven App from scratch. This involved the creation of all the necessary Dataverse tables, form desing, establishment of the tables relationship, implementation of business rules, integration of cloud flows, developed initially on Power Automate. Each step was crucial in crafting a comprehensive and functional solution tailored to the specific needs of the project. 
 
@@ -28,7 +28,7 @@ Users could:
 
  
 
-**_Power BI_** :computer:
+**_Power BI_**
 
 Here are some examples of the academic projects that i did in Power Bi, where I started doing the projects in the Power BI Desktop and then publish all the records to the workspace in Power BI Service.
 In the Power BI Desktop in all projects that i developed, i created calculated columns, develop metrics, establish relationships beteween all the datasources connected, and used the tools such as:Ai insights, Find anomalys, Bookmarks, etc.
@@ -48,7 +48,7 @@ Dashboard:
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/c291deb0-09fa-4698-9583-5942fdc7a034)
 
 
-**_Power Automate_** :computer:
+**_Power Automate_** 
 
 When engaging with the core components of the Power Platform, prioritizing process automation became essential to streamline user interactions. This approach aimed to enhance user experience by automating repetitive tasks and simplifying complex processes, ultimately fostering seamless interaction and efficiency within the platform.
 
@@ -61,7 +61,7 @@ When engaging with the core components of the Power Platform, prioritizing proce
 ![imagem](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/34a5c8b2-2538-493c-a9be-6281baaf9ae3)
 
 
-**_Copilot_**
+**_Copilot_** 
 
 In this academic project, the primary objective was to develop a chatbot and gain an understanding of how its components, such as topics, entities, and the various development tools provided, interact with each other.
 
@@ -82,6 +82,15 @@ The primary objective was to create a system that allows users to purchase items
 2 - One of the flows created in Power Automate integrated an action in the chatbot's workflow. When a user initiates a purchase, this flow triggers the creation of an entry in the "Requisicao_produto" table and simultaneously sends an email confirmation to the buyer. This ensures that the purchase process is both logged in the system and communicated effectively to the user.
 
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/80e6b7b9-bc8d-4acf-922c-f2909c4a7722)
+
+
+**_Power Pages Website_** 
+
+Home page
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7d40b6c4-1926-45db-b2a0-621bd36970c5)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/bf59775c-3784-4e7c-8b23-4247339f353b)
+![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/5201011f-fb56-4a09-866f-bdbc2346ce92)
+
 
 
 
