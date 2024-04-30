@@ -89,6 +89,9 @@ The primary objective was to create a system that allows users to purchase items
 The primary objective of this academic project was to develop a Power Pages website utilizing a provided template. The goal was to gain a comprehensive understanding of the various tools and functionalities offered by this component of the Power Platform.
 
 Home page
+
+![site-v9zs8 powerappsportals com_ (1)](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/98af6c61-2bfa-43f2-80df-ab6774fae01c)
+
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7d40b6c4-1926-45db-b2a0-621bd36970c5)
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/bf59775c-3784-4e7c-8b23-4247339f353b)
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/5201011f-fb56-4a09-866f-bdbc2346ce92)
