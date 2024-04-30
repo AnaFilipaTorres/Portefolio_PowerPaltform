@@ -66,19 +66,15 @@ When engaging with the core components of the Power Platform, prioritizing proce
 In this academic project, the primary objective was to develop a chatbot and gain an understanding of how its components, such as topics, entities, and the various development tools provided, interact with each other.
 
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/601b5932-91f8-4fae-8c25-f71a4d3ec424)
-
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7fa59392-d38f-442f-897b-0dbc8922944c)
 
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/d0c5d31b-05dd-4c8d-afbc-3028e2c658de)
-
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/f0e00e9d-21e0-45e5-a867-7c31a784be94)
 
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/ec784628-4441-497c-a7f8-cd2d789fb824)
-
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/876491a8-f9c2-4320-9140-22a192fb8132)
 
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/7386c388-3c15-4d3b-b7a4-380de4a96abd)
-
 ![image](https://github.com/AnaFilipaTorres/Portefolio_PowerPaltform/assets/161728912/d66acba7-b867-47b7-adac-73c695a09c72)
 
 
