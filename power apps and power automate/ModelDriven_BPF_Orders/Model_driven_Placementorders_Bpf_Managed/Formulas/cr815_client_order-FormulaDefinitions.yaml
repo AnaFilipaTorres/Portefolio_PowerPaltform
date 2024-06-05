@@ -1,0 +1,2 @@
+cr815_total: |
+    =cr815_quantity * cr815_LookUp_product.cr815_unit_price
